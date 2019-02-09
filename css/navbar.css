@@ -1,0 +1,93 @@
+.main_navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    list-style-type: none;
+    background-color: Teal;
+    position: fixed;
+    z-index: 3;
+}
+
+.main_navbar_title {
+    float: left;
+    display: block;
+    color: yellow;
+    text-align: left;
+    text-decoration: none;
+}
+
+.main_navbar_title:hover {
+    background-color: CornflowerBlue;
+}
+
+.main_navbar_title_active {
+    float: left;
+    display: block;
+    color: DarkOrange;
+    text-align: left;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1280px) {
+    .main_navbar {
+        height: 2.5em;
+    }
+    
+    .main_navbar_title {
+        font-size: 1em;
+        padding: 0.75em 1em;
+    }
+    
+    .main_navbar_title:hover {
+        background-color: CornflowerBlue;
+        height: 2.5em;
+    }
+    
+    .main_navbar_title_active {
+        font-size: 1em;
+        padding: 0.75em 1em;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1279px) {
+    .main_navbar {
+        height: 1.5em;
+    }
+    
+    .main_navbar_title {
+        font-size: 1em;
+        padding: 0.25em 0.75em;
+    }
+    
+    .main_navbar_title:hover {
+        height: 1em;
+    }
+    
+    .main_navbar_title_active {
+        font-size: 1em;
+        padding: 0.25em 0.75em;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .main_navbar {
+        height: 1.5em;
+    }
+    
+    .main_navbar_title {
+        font-size: 0.8em;
+        padding: 0.4em 0.75em;
+    }
+    
+    .main_navbar_title:hover {
+        height: 1.1em;
+    }
+    
+    .main_navbar_title_active {
+        font-size: 0.8em;
+        padding: 0.4em 0.75em;
+    }
+}
